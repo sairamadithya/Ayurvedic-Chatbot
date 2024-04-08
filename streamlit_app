@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[28]:
-
-
 import streamlit as st
 import openai
 
@@ -47,4 +41,3 @@ if st.button("Get Answer"):
             st.success('Thank you for using the ayurvedic chatbot. Hope your query is answered.')
         else:
             st.warning("Please enter a question.")
-
