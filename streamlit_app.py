@@ -1,8 +1,7 @@
 import streamlit as st
 import openai
 
-api_key = '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'
-openai.api_key = api_key
+openai.api_key = st.secrets["api_key"]
 
 def get_response(question):
     response = openai.ChatCompletion.create(
