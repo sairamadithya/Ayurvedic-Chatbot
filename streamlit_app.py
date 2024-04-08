@@ -41,6 +41,14 @@ if st.button("Get Answer"):
             st.success('Thank you for using the ayurvedic chatbot. Hope your query is answered.')
         else:
             st.warning("Please enter a question.")
+
+st.write(' ')
+st.write(' ')
+st.write(' ')
+st.write(' ')
+st.write(' ')
+st.write(' ')
+st.write(' ')
 st.write('Developed by Sairam.V.A')
 st.write('github-https://github.com/sairamadithya')
 st.write('linktree-https://linktr.ee/sairamadithya')
