@@ -1,6 +1,7 @@
 import streamlit as st
 import openai
-
+Import OS
+os.environ["OPENAI_API_KEY"] = st.secrets["api_key"]
 openai.api_key = st.secrets["api_key"]
 
 def get_response(question):
